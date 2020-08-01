@@ -1,0 +1,550 @@
+{
+    "countries" : [
+    {
+    "name": "Afghanistan",
+    "population":"38,928,346",
+    "Land_Area":"652,860"
+     },
+
+     {
+     "name": "Albania",
+    "population":"2,877,797",
+    "Land_Area":"27,000"
+     },
+
+     {
+        "name": "Algeria",
+       "population":"43,851,044",
+       "Land_Area":"2,381,740"
+     },
+
+     {
+        "name": "Andorra",
+       "population":"77,265",
+       "Land_Area":"470"
+     },
+
+     {
+        "name": "Angola",
+       "population":"32,866,272",
+       "Land_Area":"1,246,700"
+     },
+
+     {
+        "name": "Antigua and Barbuda",
+       "population":"97,929",
+       "Land_Area":"440"
+     },
+
+     {
+        "name": "Argentina",
+       "population":"45,195,774",
+       "Land_Area":"2,736,690"
+     },
+
+     {
+        "name": "Armenia",
+       "population":"2,963,243",
+       "Land_Area":"440"
+     },
+
+     {
+        "name": "Australia",
+       "population":"25,499,884",
+       "Land_Area":"7,682,300"
+     },
+
+     {
+        "name": "Austria",
+       "population":"9,006,398",
+       "Land_Area":"82,409"
+     },
+
+     {
+        "name": "Azerbaijan",
+       "population":"10,139,177",
+       "Land_Area":"82,658"
+     },
+
+     {
+      "name": "Bahamas",
+     "population":"393,244",
+     "Land_Area":"10,010"
+     },
+
+     {
+      "name": "Bahrain",
+     "population":"1,701,575",
+     "Land_Area":"760"
+   },
+
+   {
+      "name": "Bangladesh",
+     "population":"164,689,383",
+     "Land_Area":"130,170"
+   },
+
+   {
+    "name": "Barbados",
+   "population":"287,375",
+   "Land_Area":"430"
+   },
+
+   {
+    "name": "Bahamas",
+   "population":"393,244",
+   "Land_Area":"10,010"
+   },
+
+   {
+    "name": "Belarus",
+   "population":"9,449,323",
+   "Land_Area":"202,910"
+ },
+
+ {
+    "name": "Belgium",
+   "population":"11,589,623",
+   "Land_Area":"30,280"
+ },
+
+ {
+  "name": "Belize",
+ "population":"397,628",
+ "Land_Area":"22,810"
+ },
+
+ {
+  "name": "Benin",
+ "population":"12,123,200",
+ "Land_Area":"112,760"
+},
+
+{
+  "name": "Bhutan",
+ "population":"771,608",
+ "Land_Area":"38,117"
+},
+
+{
+  "name": "Bolivia",
+ "population":"11,673,021",
+ "Land_Area":"1,083,300"
+},
+
+{
+  "name": "Bosnia and Herzegovina",
+ "population":"3,280,819",
+ "Land_Area":"51,000"
+},
+
+{
+"name": "Botswana",
+"population":"2,351,627",
+"Land_Area":"566,730"
+},
+
+{
+"name": "Brazil",
+"population":"212,559,417",
+"Land_Area":"8,358,140"
+},
+
+{
+  "name": "Brunei",
+  "population":"437,479",
+  "Land_Area":"5,270"
+  },
+
+{
+  "name": "Bulgaria",
+  "population":"6,948,445",
+  "Land_Area":"108,560"
+  },
+
+  {
+    "name": "Burkina Faso",
+    "population":"20,903,273",
+    "Land_Area":"273,600"
+    },
+    
+  {
+    "name": "Burundi",
+    "population":"11,890,784",
+    "Land_Area":"25,680"
+   },
+
+    {
+  "name": "Cabo Verde",
+  "population":"555,987",
+  "Land_Area":"4,030"
+  },
+
+{
+  "name": "Cambodia",
+  "population":"16,718,965",
+  "Land_Area":"176,520"
+  },
+
+  {
+    "name": "Cameroon",
+    "population":"26,545,863",
+    "Land_Area":"472,710"
+    },
+    
+  {
+    "name": "Canada",
+    "population":"37,742,154",
+    "Land_Area":"9,093,510"
+    },
+  
+    {
+  "name": "Central African Republic",
+  "population":"4,829,767",
+  "Land_Area":"622,980"
+  },
+
+{
+  "name": "Chad",
+  "population":"16,425,864",
+  "Land_Area":"1,259,200"
+  },
+
+  {
+    "name": "Chile",
+    "population":"19,116,201",
+    "Land_Area":"743,532"
+    },
+    
+  {
+    "name": "China",
+    "population":"1,439,323,776",
+    "Land_Area":"9,388,211"
+    },
+
+    {
+  "name": "Colombia",
+  "population":"50,882,891",
+  "Land_Area":"1,109,500"
+  },
+
+{
+  "name": "Comoros",
+  "population":"869,601",
+  "Land_Area":"1,861"
+  },
+
+  {
+    "name": "Congo",
+    "population":"5,518,087",
+    "Land_Area":"341,500"
+    },
+    
+  {
+    "name": "Costa Rica",
+    "population":"5,094,118",
+    "Land_Area":"51,060"
+    },
+
+    {
+  "name": "Croatia",
+  "population":"4,105,267",
+  "Land_Area":"55,960"
+  },
+
+{
+  "name": "Cuba",
+  "population":"11,326,616",
+  "Land_Area":"106,440"
+  },
+
+  {
+    "name": "Cyprus",
+    "population":"1,207,359",
+    "Land_Area":"9,240"
+    },
+    
+  {
+    "name": "Czech Republic",
+    "population":"10,708,981",
+    "Land_Area":"77,240"
+    },
+
+      {
+      "name": "Côte d'Ivoire",
+      "population":"26,378,274",
+      "Land_Area":"318,000"
+      },
+    
+      {
+      "name": "Denmark",
+      "population":"5,792,202",
+      "Land_Area":"42,430"
+      },
+
+      {
+      "name": "Djibouti",
+      "population":"988,000",
+      "Land_Area":"23,180"
+      },
+    
+      {
+      "name": "Dominica",
+      "population":"71,986",
+      "Land_Area":"750"
+      },
+
+      {
+      "name": "Dominican Republic",
+      "population":"10,847,910",
+      "Land_Area":"48,320"
+      },
+    
+      {
+      "name": "DR Congo",
+      "population":"89,561,403",
+      "Land_Area":"2,267,050"
+      },
+
+      {
+      "name": "Ecuador",
+      "population":"17,643,054",
+      "Land_Area":"248,360"
+      },
+    
+      {
+      "name": "Egypt",
+      "population":"102,334,404",
+      "Land_Area":"995,450"
+      },
+
+      {
+      "name": "El Salvador",
+      "population":"6,486,205",
+      "Land_Area":"20,720"
+      },
+    
+      {
+      "name": "Equatorial Guinea",
+      "population":"1,402,985",
+      "Land_Area":"28,050"
+      },
+
+      {
+      "name": "Eritrea",
+      "population":"3,546,421",
+      "Land_Area":"101,000"
+      },
+    
+      {
+      "name": "Estonia",
+      "population":"1,326,535",
+      "Land_Area":"42,390"
+      },
+
+      {
+      "name": "Eswatini",
+      "population":"1,160,164",
+      "Land_Area":"17,200"
+      },
+    
+      {
+      "name": "Ethiopia",
+      "population":"114,963,588",
+      "Land_Area":"1,000,000"
+      },
+
+      {
+      "name": "Fiji",
+      "population":"896,445",
+      "Land_Area":"18,270"
+      },
+    
+      {
+      "name": "Finland",
+      "population":"5,540,720",
+      "Land_Area":"303,890"
+      },
+
+      {
+      "name": "France",
+      "population":"65,273,511",
+      "Land_Area":"547,557"
+      },
+    
+      {
+      "name": "Gabon",
+      "population":"2,225,734",
+      "Land_Area":"257,670"
+      },
+
+      {
+      "name": "Gambia",
+      "population":"2,416,668",
+      "Land_Area":"10,120"
+      },
+    
+      {
+      "name": "Georgia",
+      "population":"3,989,167",
+      "Land_Area":"3,989,167"
+      },
+
+      {
+      "name": "Germany",
+      "population":"83,783,942",
+      "Land_Area":"348,560"
+      },
+    
+      {
+      "name": "Ghana",
+      "population":"31,072,940",
+      "Land_Area":"227,540"
+      },
+
+      {
+      "name": "Greece",
+      "population":"10,423,054",
+      "Land_Area":"128,900"
+      },
+    
+      {
+      "name": "Grenada",
+      "population":"112,523",
+      "Land_Area":"340"
+      },
+
+      {
+      "name": "Guatemala",
+      "population":"17,915,568",
+      "Land_Area":"107,160"
+      },
+    
+      {
+      "name": "Guinea",
+      "population":"13,132,795",
+      "Land_Area":"245,720"
+      },
+
+      {
+      "name": "Guinea-Bissau",
+      "population":"1,968,001",
+      "Land_Area":"28,120"
+      },
+    
+      {
+      "name": "Guyana",
+      "population":"786,552",
+      "Land_Area":"196,850"
+      },
+
+      {
+      "name": "Haiti",
+      "population":"11,402,528",
+      "Land_Area":"27,560"
+      },
+    
+      {
+      "name": "Holy See",
+      "population":"801",
+      "Land_Area":"0"
+      },
+
+      {
+      "name": "Honduras",
+      "population":"9,904,607",
+      "Land_Area":"111,890"
+      },
+    
+      {
+      "name": "Hungary",
+      "population":"9,660,351",
+      "Land_Area":"90,530"
+      },
+
+      {
+      "name": "Iceland",
+      "population":"341,243",
+      "Land_Area":"100,250"
+      },
+    
+      {
+      "name": "India",
+      "population":"1,380,004,385",
+      "Land_Area":"2,973,190"
+      },
+
+      {
+      "name": "Indonesia",
+      "population":"273,523,615",
+      "Land_Area":"1,811,570"
+      },
+    
+      {
+      "name": "Iran",
+      "population":"83,992,949",
+      "Land_Area":"1,628,550"
+      },
+
+      {
+      "name": "Iraq",
+      "population":"40,222,493",
+      "Land_Area":"434,320"
+      },
+    
+      {
+      "name": "Ireland",
+      "population":"4,937,786",
+      "Land_Area":"68,890"
+      },
+
+      {
+      "name": "Israel",
+      "population":"8,655,535",
+      "Land_Area":"21,640"
+      },
+    
+      {
+      "name": "Italy",
+      "population":"60,461,826",
+      "Land_Area":"294,140"
+      },
+
+      {
+      "name": "Jamaica",
+      "population":"2,961,167",
+      "Land_Area":"10,830"
+      },
+    
+      {
+      "name": "Japan",
+      "population":"126,476,461",
+      "Land_Area":"364,555"
+      },
+
+      {
+      "name": "Jordan",
+      "population":"10,203,134",
+      "Land_Area":"88,780"
+      },
+    
+      {
+      "name": "Kazakhstan",
+      "population":"18,776,707",
+      "Land_Area":"2,699,700"
+      }
+
+
+     
+
+     
+
+     
+
+     
+
+
+
+
+]
+}
