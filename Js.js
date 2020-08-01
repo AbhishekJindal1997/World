@@ -22,7 +22,7 @@ $(document).ready(function(){
 
 
 
-    var url = 'https://maps.googleapis.com/maps/api/place/textsearch/json?query=restaurants+in+toronto%20&key=AIzaSyAPJ6-Op3y0KsOkPh7-Wf2LIx7KYYRnX8w';
+   
 // Getting data from google Api
     $.getJSON(url, function(data){
         var name = data.results;
