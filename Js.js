@@ -22,7 +22,7 @@ $(document).ready(function(){
 
 
 
-   
+   /*
 // Getting data from google Api
     $.getJSON(url, function(data){
         var name = data.results;
@@ -34,7 +34,7 @@ $(document).ready(function(){
          }
          $(".resultt").html(html);
         console.log(html);
-        });
+        });*/
 
 
           // Getting data from countries.json file

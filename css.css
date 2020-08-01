@@ -362,6 +362,24 @@ input[type=search]{
     transform: skewY(10deg);
 }
 
+.music_content img,
+.music_content_1 img,
+.music_content_2 img,
+.music_content_3 img,
+.music_content_4 img,
+.music_content_5 img{
+   border-radius: 30px;
+}
+
+.music_content_6 img,
+.music_content_7 img,
+.music_content_8 img,
+.music_content_9 img,
+.music_content_10 img,
+.music_content_11 img{
+   border-radius: 30px;
+}
+
 .music_content_6,
 .music_content_7,
 .music_content_8,
@@ -373,6 +391,8 @@ input[type=search]{
     max-width: 20%;
     transform: skewY(10deg);
 }
+
+
 
 
 
