@@ -169,7 +169,7 @@ $(document).ready(function(){
             duration:"130%"
         })
         .setTween(FirstScroll)
-        .addIndicators()
+        //.addIndicators()
         .addTo(controller);
 
 
@@ -188,7 +188,7 @@ $(document).ready(function(){
             duration:"100%"
         })
         .setTween(SecondScroll)
-        .addIndicators()
+        //.addIndicators()
         .addTo(controller_2);
 
         //Music and Sports
@@ -224,7 +224,7 @@ $(document).ready(function(){
             duration:"300%"
         })
         .setTween(ThirdScroll)
-        .addIndicators()
+        //.addIndicators()
         .setPin('.music')
         .addTo(controller_3);
 
@@ -266,7 +266,7 @@ $(document).ready(function(){
           duration:"300%"
       })
       .setTween(FourthScroll)
-      .addIndicators()
+      //.addIndicators()
       .setPin('.music_2')
       .addTo(controller_4);
        
