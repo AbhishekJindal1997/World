@@ -176,6 +176,10 @@ $(document).ready(function(){
         // Videos Resizing
         var SecondScroll = new TimelineMax();
           SecondScroll
+         // .to('#myVideo',2, {xPercent:-50, yPercent:-50})
+          //.to('#myVideo_2',2, {xPercent:-50, yPercent:-50})
+          //.to('#myVideo_3',2, {scale:0.4, y:"30%",marginTop:"10%"})
+
           .to('#myVideo',2, {scale:0.4, y:"30%",marginTop:"10%"})
           .to('#myVideo_2',2, {display:'inline',scale:0.4, y:"40%",marginTop:"30%"},"-=1")
           .to('#myVideo_3',2, {display:'inline',scale:0.4, y:"50%",marginTop:"50%"},"-=1")

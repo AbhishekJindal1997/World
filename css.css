@@ -346,7 +346,7 @@ input[type=search]{
     text-align: center;
     font-weight: bolder;
     margin-top: 5%;
-    letter-spacing: 10px;
+   
 }
 
 
@@ -764,6 +764,64 @@ input[type=search]{
     margin-top: 80%;
 }
 
+@media only all and (max-width:768px){
+
+    .earth_outline {
+        margin-left: 10%;
+    }
+
+    .adhreline{
+        margin-top: 150%;
+        font-size: 1em;
+        
+    }
+
+    #myVideo,
+    #myVideo_2,
+    #myVideo_3 {
+    position: absolute;
+    display: none;
+    top:200;
+    border-radius: 20px;
+    text-align: center;
+    width: 80%;
+    height: 400px;
+    margin:auto;
+    
+  }
+
+
+
+  .movies_heading{
+      margin-top: 20%;   
+      font-size:2em; 
+  }
+
+  .music{
+      margin-top:220%;
+      position:absolute;
+  }
+
+  .music_2{
+      margin-top:260%;
+  }
+
+  .albums{
+      margin-top:440%;
+  }
+
+  
+
+  
+
+  
+
+
+
+  
+
+
+}
 
 
 
