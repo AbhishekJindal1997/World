@@ -793,22 +793,47 @@ input[type=search]{
 
 
   .movies_heading{
-      margin-top: 20%;   
+      margin-top: 70%;   
       font-size:2em; 
+      top:0;
   }
 
   .music{
-      margin-top:220%;
-      position:absolute;
+      margin-top:0%;
+      top:0;
+      height: 300px;
   }
 
   .music_2{
-      margin-top:260%;
+      margin-top: 0%;
+      top:0;
+      
+      
+  }
+
+.movies_row_1{
+    margin-top:0%;
+    
+    
+    
+}  
+
+  .movies_row_2{
+      margin-top: 80%;
+      
   }
 
   .albums{
-      margin-top:440%;
+      margin-top:400%;
   }
+
+ 
+
+
+
+  
+
+  
 
   
 
