@@ -12,14 +12,43 @@ body{
     overflow-x: hidden;
 }
 
+.navigation{
+    margin-top: -100px;
+    text-align: center;
+    max-width: 100%;
+    margin-right: 10px;
+}
+
+nav a{
+    padding:0 20px;
+    text-decoration: none;
+    color: black;
+    font-family: Rubik;
+    letter-spacing: 2px;
+}
+
+nav a:hover{
+     background-color: grey;
+     transition: 0.4s;
+     border-radius: 5px;
+     color:whitesmoke;
+     letter-spacing: 3px;
+}
+
 .earth_inside{
     width: 400px;
     height: 400px;
     position: absolute;
     border-radius: 50%;
     margin-top: -404px;
-    box-shadow:  inset -5px 0px 30px 5px white;
-    
+    box-shadow:  inset -5px 0px 30px 5px white;  
+}
+
+.social_icons{
+    margin-left: 0.5%;
+    margin-top: -18%;
+    display: flex;
+    flex-direction: column;
 }
 
 .earth_outline{
@@ -130,11 +159,12 @@ input[type=search]{
 
 .Intro{
   /*  background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);*/
-  background-image: url(images/Banner01.jpg);
+  background-image: url(images/Nature-2.jpg);
     height: 1000px;
     padding-top: 150px;
     background-size:cover;
     background-repeat: no-repeat;
+    
     
 }
 
@@ -146,8 +176,13 @@ input[type=search]{
     font-family: Merienda One;
 }
 
+.intro_section{
+    margin-top: 10%;
+}
+
 .Intro h2{
     font-size: 2em;
+    margin-top: 50px;
 }
 .continents img{
     margin-left: 35%;
@@ -205,6 +240,8 @@ input[type=search]{
     letter-spacing: 5px;
     cursor: pointer;
 }
+
+
 
 
 .banner_btn:hover{
@@ -345,8 +382,21 @@ input[type=search]{
     font-size: 3em;
     text-align: center;
     font-weight: bolder;
-    margin-top: 5%;
-   
+    margin-top: 5%;  
+}
+
+.watch_now{
+    margin-top:-200%;
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    margin-left: 70%;
+}
+
+.music_content{
+    margin-top: -10%;
 }
 
 
@@ -361,6 +411,7 @@ input[type=search]{
     max-width: 20%;
     transform: skewY(10deg);
 }
+
 
 .music_content img,
 .music_content_1 img,
@@ -807,15 +858,10 @@ input[type=search]{
   .music_2{
       margin-top: 0%;
       top:0;
-      
-      
   }
 
 .movies_row_1{
     margin-top:0%;
-    
-    
-    
 }  
 
   .movies_row_2{
