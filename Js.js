@@ -240,7 +240,8 @@ $(document).ready(function(){
 
         var FourthScroll = new TimelineMax();
         FourthScroll
-        
+        .set('.watch_now', { y:"-110%"})
+        .set('.music_content_6', { transform:"skewY(10deg)"})
         .set('.music_content_6', { transform:"skewY(10deg)"})
         .set('.music_content_7', {transform:"skewY(10deg)"})
         .set('.music_content_8', {transform:"skewY(10deg)"})
