@@ -6,11 +6,16 @@
     <link rel="icon" href="Images/x-icon.PNG" type="images/x-icon.PNG">
     <link href='https://fonts.googleapis.com/css?family=Merienda+One' rel='stylesheet'>
     <link href='https://fonts.googleapis.com/css?family=Rubik' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Russo+One' rel='stylesheet'>
     <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"></script> 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/animation.gsap.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/debug.addIndicators.min.js"></script> 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenLite.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TimelineLite.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/plugins/CSSPlugin.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/plugins/BezierPlugin.min.js"></script>
     <script src="Js.js" type="text/javascript"></script>
     <script src="https://kit.fontawesome.com/c81a024f7c.js" crossorigin="anonymous"></script>
     <title>World project</title>  
@@ -38,17 +43,23 @@
 
         
         <h1>WELCOME TO TRAVEL {IO}</h1>
-        <h2>TRAVEL MADE EASY</h2>
+        <h2>Travel Made Easy</h2>
         <div class="banner_btn_div">
             <button class="banner_btn_1">Share Your Travel Stories </button>
             <button class="banner_btn">View Travel Stories</button>
         </div>
+
+        
 
         <div class="social_icons">
           <i class="fa fa-facebook-square fa-3x" aria-hidden="true"></i>
           <i class="fa fa-google-plus-square fa-3x" aria-hidden="true"></i>
           <i class="fa fa-youtube-square fa-3x" aria-hidden="true"></i>
           <i class="fa fa-twitter-square fa-3x" aria-hidden="true"></i>
+        </div>
+
+        <div class="plane-animation">
+          <img class="paper-plane" src="images/paper.png" alt="paper-plane">
         </div>
       </div> 
 
@@ -65,15 +76,14 @@
 
     <div id="blur"></div>
 
-    <div class="skydiving">
-      <p>
-        <br>
-        Skydiving
-      </p>
+    
+
+
     <video autoplay muted loop id="myVideo">
         <source src="Videos/Skydiving.mp4" type="video/mp4">
       </video>
-    </div>
+
+    
 
       <video autoplay muted loop id="myVideo_2">
         <source src="Videos/Para.mp4" type="video/mp4">
@@ -84,9 +94,9 @@
       </video>
       
       <div class="adhreline">
-      <h1>CHOOSE</h1>
-      <h1>YOUR</h1>
-      <h1>ADRENALINE</h1>
+      <h1>Choose</h1>
+      <h1>Your</h1>
+      <h1>Adrenaline</h1>
       </div>
        
       
@@ -205,6 +215,14 @@
     <div class="albums">
 
       <div class="movies_heading">Latest Music</div>
+
+      <div class="website">
+      <h1 class="progress">Website</h1>
+      <h1 class="progress">Under</h1>
+      <h1 class="progress">Construction</h1>
+    </div>
+        
+      
      </div>
 
     <div class="footer">
@@ -214,7 +232,7 @@
       </div>
       
       <div class="footer_info">
-        <h1>Website Developer</h1>
+        <h1>Developer</h1>
         <h2>My Other Projects</h2>
     
         <!--
@@ -246,9 +264,6 @@
 
 
 
-<section class="adventure">
-
-</section>
 
 
 

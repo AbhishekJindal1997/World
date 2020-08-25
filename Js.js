@@ -232,12 +232,6 @@ $(document).ready(function(){
         .setPin('.music')
         .addTo(controller_3);
 
-
-
-
-
-
-
         var FourthScroll = new TimelineMax();
         FourthScroll
         .set('.watch_now', { y:"-110%"})
@@ -274,6 +268,28 @@ $(document).ready(function(){
       //.addIndicators()
       .setPin('.music_2')
       .addTo(controller_4);
+
+      const flightPath = {
+        curviness:1.25,
+        autoRotate:true,
+        values:[
+          {x:100, y: -10},
+          {x:400, y:0},
+          {x:600, y:60},
+          {x:800, y:25}
+        ]
+      }
+
+      const tween = new TimelineLite();
+
+      tween.add(
+        TweenLite.to(".paper-plane", 1, {
+          bezier:flightPath,
+          ease:Power1.easeInOut 
+        })
+      )
+
+
        
 
 
