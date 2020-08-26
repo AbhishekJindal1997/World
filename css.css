@@ -29,6 +29,7 @@ body{
     height:100px;
     z-index: +12;
    position: absolute;
+   display: none;
     
 }
 

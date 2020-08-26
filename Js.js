@@ -290,6 +290,10 @@ $(document).ready(function(){
       )
 
 
+      setTimeout(function(){
+          $(".paper-plane").show();
+      },100);
+
        
 
 
