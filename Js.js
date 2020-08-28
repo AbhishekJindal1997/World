@@ -144,6 +144,7 @@ $(document).ready(function(){
  */      // Earth Final Animation
           var FirstScroll = new TimelineMax();
           FirstScroll
+          .set('.watch_now', { y:"-110%"})
           .set('.earth_outline', {scale:1,ease:Power3.easeOut,zIndex:-1})
           .to('.earth_outline', 1, {scale:1, y:"10%"})
           .to('.earth_outline', 1, {scale:1.3, y:"20%"})
@@ -234,7 +235,7 @@ $(document).ready(function(){
 
         var FourthScroll = new TimelineMax();
         FourthScroll
-        .set('.watch_now', { y:"-110%"})
+        
         .set('.music_content_6', { transform:"skewY(10deg)"})
         .set('.music_content_6', { transform:"skewY(10deg)"})
         .set('.music_content_7', {transform:"skewY(10deg)"})
