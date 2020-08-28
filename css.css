@@ -798,7 +798,7 @@ h2 {
   margin-top: 80%;
 }
 
-@media only all and (max-width: 768px) {
+@media only screen and (max-width: 768px) {
   .Intro {
     height: 700px;
     background-size: contain;
