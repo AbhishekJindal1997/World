@@ -3,8 +3,6 @@
 $(document).ready(function () {
   $(".countries").hide();
 
-  var background_change_colour = 1;
-
   $(".music_content").mouseenter(function () {
     $(".music_content").css({ width: "120%" });
   });
@@ -55,77 +53,9 @@ $(document).ready(function () {
         }
       });
     });
-  }); // Earth Final Animation
+  });
 
-  //Gsap Animation
-  /*var FirstScroll = new TimelineMax();
-       var FirstScroll_1 = new TimelineMax();
-       var secon_scroll = new TimelineMax();
-      
-
-        FirstScroll
-        .set('.sa', {scale:1 , transformOrigin:"center top", x:"-280%", y:"-100%"})
-        .set('.sa_4', {scale:1 , transformOrigin:"center top", x:"-250%", y:"-100%"})
-        .to('.sa', 1000, {scale:0.8, x:"0%",  y:"10%", display:"inline"})          
-        .to('.sa', 1000, {scale:0,opacity:0})
-        .to('.sa_4', 2000, {scale:0.8, x:"0%",  y:"0%", display:"inline"})          
-        .to('.sa_4', 2000, {scale:0,opacity:0},"-=3")
-        
-        
-
-        FirstScroll_1
-        .set('.sa_2', {scale:1 , transformOrigin:"center top", x:"250%", y:"-100%"})
-        .set('.sa_3', {scale:1 , transformOrigin:"center top", x:"280%", y:"-100%"})
-        .to('.sa_2', 2000, {scale:0.8, x:"0%",  y:"10%", display:"inline"})          
-        .to('.sa_2', 2000, {scale:0,opacity:0})
-        .to('.sa_3', 2000, {scale:0.8, x:"0%",  y:"-10%", display:"inline"})          
-        .to('.sa_3', 2000, {scale:0,opacity:0}, "-=3")
-        .to('.earth_outline',20, {scale:0.5, display:'block', y:"10%"},"-=1000")
-        .to('.moon', 20, {display:"block"})
-
-        secon_scroll
-        .to('.earth_outline',20, {scale:1.2})
-
-       
-        
-        
-          
-        var controller = new ScrollMagic.Controller();
-        var controller_1 = new ScrollMagic.Controller();
-        
-        // Left Continents
-        var scene1 = new ScrollMagic.Scene({
-            triggerElement:'.trigger1', 
-            triggerHook:0,
-            duration:"100%"
-        })
-        .setTween(FirstScroll)
-        .addIndicators()
-        .addTo(controller);
-        // Right Continents
-        var scene2 = new ScrollMagic.Scene({
-            triggerElement:'.trigger1', 
-            triggerHook:0,
-            duration:"100%"
-        })
-        .setTween(FirstScroll_1)
-        .setPin('.trigger1')
-        .addIndicators()
-        .addTo(controller_1);
-
-
-        //Earth 
-        var scene3 = new ScrollMagic.Scene({
-            triggerElement:'.trigger1', 
-            triggerHook:1,
-            duration:"100%"
-        })
-        .setTween(secon_scroll)
-        .addIndicators()
-        .addTo(controller_1);
-
-
- */ var FirstScroll = new TimelineMax();
+  var FirstScroll = new TimelineMax();
   FirstScroll.set(".watch_now", { y: "-110%" })
     .set(".earth_outline", { scale: 1, ease: Power3.easeOut, zIndex: -1 })
     .to(".earth_outline", 1, { scale: 1, y: "10%" })
@@ -206,9 +136,6 @@ $(document).ready(function () {
     .to(".music_content_5", 1, { transform: "skewY(0deg)" })
     .to(".music_content_5", 1, { x: "-240%" });
 
-  //.to('body',10, {backgroundColor:"#687682"},"-=17")
-  // .to('body',1,   {backgroundColor:'#eeeeee'})
-  //.to('.adhreline', 1, {backgroundColor:'#000000'})
   var controller_3 = new ScrollMagic.Controller();
   var scene3 = new ScrollMagic.Scene({
     triggerElement: ".music",
@@ -241,9 +168,7 @@ $(document).ready(function () {
     .to(".music_content_10", 1, { x: "-140%" })
     .to(".music_content_11", 1, { transform: "skewY(0deg)" })
     .to(".music_content_11", 1, { x: "-240%" });
-  //.to('body',10, {backgroundColor:"#687682"},"-=17")
-  // .to('body',1,   {backgroundColor:'#eeeeee'})
-  //.to('.adhreline', 1, {backgroundColor:'#000000'})
+
   var controller_4 = new ScrollMagic.Controller();
   var scene4 = new ScrollMagic.Scene({
     triggerElement: ".music",
@@ -255,26 +180,21 @@ $(document).ready(function () {
     .setPin(".music_2")
     .addTo(controller_4);
 
-  var flightPath = {
-    curviness: 1.25,
-    autoRotate: true,
-    values: [
-      { x: 100, y: -10 },
-      { x: 400, y: 0 },
-      { x: 600, y: 60 },
-      { x: 800, y: 25 },
-    ],
-  };
-
   if ($(window).width() < 768) {
     var flightPath = {
       curviness: 1.25,
       autoRotate: true,
       values: [
-        { x: 100, y: 0 },
-        { x: 200, y: 0 },
+        { x: 100, y: 30 },
+        { x: 200, y: 30 },
         { x: 300, y: 60 },
-        { x: 400, y: 15 },
+        { x: 380, y: 35 },
+        // { x: 400, y: 20 },
+        // { x: 300, y: 25 },
+        // { x: 200, y: 30 },
+        // { x: 100, y: 0 },
+        // { x: 0, y: 25 },
+        // { x: 0, y: 25 },
       ],
     };
   } else if ($(window).width(1080)) {
@@ -302,4 +222,29 @@ $(document).ready(function () {
   setTimeout(function () {
     $(".paper-plane").show();
   }, 100);
+
+  // Making Navigation Bar Responsive
+  $("nav span").hide();
+  var i = 1;
+  $("#menu_button").click(function () {
+    if (i == 1) {
+      i--;
+      $("nav").css({
+        left: "-170%",
+        transition: "0.7s",
+      });
+      $("#menu_button").css({
+        transform: "rotate(90deg)",
+      });
+    } else if (i == 0) {
+      i++;
+      $("nav").css({
+        left: "80%",
+        transition: "0.7s",
+      });
+      $("#menu_button").css({
+        transform: "rotate(0deg)",
+      });
+    }
+  });
 });
