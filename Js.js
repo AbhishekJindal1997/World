@@ -224,7 +224,6 @@ $(document).ready(function () {
   }, 100);
 
   // Making Navigation Bar Responsive
-  $("nav span").hide();
   var i = 1;
   $("#menu_button").click(function () {
     if (i == 1) {
